@@ -12,9 +12,12 @@ public static class AssertHelper
 		Assert.True(collection.Count() > value.Count());
 
 		// Ensuring that collection starts with value
-		foreach (var item in collection)
+		for (int i = 0; i < value.Count(); i++)
 		{
-			
+			var collectionItem = collection.ElementAt(i);
+			var valueItem = value.ElementAt(i);
+
+			Assert.Equal(collectionItem, valueItem);
 		}
 	}
 }
