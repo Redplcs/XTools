@@ -2,8 +2,6 @@
 
 internal struct PakHeader
 {
-	private const uint Signature = 0x50414B;
-
 	public Compression Compression;
 	public GameVersion Version;
 	public uint Unknown;
