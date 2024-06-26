@@ -3,12 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentManager.Packages", "ContentManager.Packages\ContentManager.Packages.csproj", "{D7F2269D-4115-4426-8AC5-F7185653F7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentManager.Packages.Tests", "ContentManager.Packages.Tests\ContentManager.Packages.Tests.csproj", "{4CBD32B9-A2B8-40AF-904A-B512AAA70510}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7F2269D-4115-4426-8AC5-F7185653F7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F2269D-4115-4426-8AC5-F7185653F7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F2269D-4115-4426-8AC5-F7185653F7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F2269D-4115-4426-8AC5-F7185653F7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBD32B9-A2B8-40AF-904A-B512AAA70510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBD32B9-A2B8-40AF-904A-B512AAA70510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBD32B9-A2B8-40AF-904A-B512AAA70510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBD32B9-A2B8-40AF-904A-B512AAA70510}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {830B9861-92B9-4F6A-931E-F55BBFAE47DA}
 	EndGlobalSection
 EndGlobal
